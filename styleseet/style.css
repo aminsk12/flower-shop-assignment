@@ -42,6 +42,7 @@
     background-color: black;
 }
 /*---------------------header end-----------------------*/
+/*---------------------Featured Flowers  Start-----------------------*/
 .fuater-flow{
     text-align: center;
     margin-top: 50px;
@@ -98,9 +99,8 @@
     border-radius: 300px 300px 500x 200px;
     background-color: rgba(71, 125, 17, 0.15);
 }
-
-
-
+/*---------------------featured flowers  end-----------------------*/
+/*---------------------service Start-----------------------*/
 .session-main{
     width: 1440px;
     height: 320px;
@@ -114,4 +114,80 @@
 }
 .session{
     text-align: center;
+}
+/*---------------------service end-----------------------*/
+/*---------------------hot deal start-----------------------*/
+.hot-deal-sassion{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(230, 102, 202, 0.10);
+    margin-bottom: 80px;
+}
+.hading{
+    color: rgb(238, 46, 46);
+}
+/*---------------------hot deal end-----------------------*/
+/*---------------------socail media start-----------------------*/
+.socail-media-text{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.p-des{
+    font-size: px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.img{
+    display: flex;
+    justify-content: space-around;
+}
+.socail-media{
+   margin-left: 180px;
+   margin-right: 180px;
+   padding: 50px;
+}
+/*---------------------socail media end-----------------------*/
+/*----------------------input start-----------------------*/
+.input-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1440px;
+    height: 449px;
+    background-image: url("../img/Rectangle 9.png");
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 230px;
+    margin-bottom: 50px;
+}
+.email input[type="email"],  textarea{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    border-style: none;
+    font-size: 16px;
+    border: 0;
+    padding-left: 25px;
+}
+/*----------------------input end-----------------------*/
+/*----------------------footer start-----------------------*/
+.footer{
+    width: 1922px;
+    height: 449px;
+    background-color: rgb(49, 5, 75);
+    color: white;
+    text-align: center;
+}
+.foot-headdong{
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 60px;
+}
+.foot-des{
+    font-size: 18px;
+    padding: 40px;
 }
